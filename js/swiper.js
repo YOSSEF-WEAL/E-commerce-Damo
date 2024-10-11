@@ -43,7 +43,7 @@ var swiper = new Swiper(".scle_sec ", {
             spaceBetween: 15,
         },
         0: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 10,
         },
     }
@@ -87,7 +87,7 @@ var swiper = new Swiper(".product_swip", {
             spaceBetween: 15,
         },
         0: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 10,
         },
     }
