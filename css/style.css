@@ -1272,6 +1272,9 @@ header .links ul .btn_close_menue {
 @media (max-width:700px) {}
 
 @media (max-width:500px) {
+        .dropdown-menu.show {
+        transform: translate3d(45%, 65px, 0px) !important;
+    }
     header .top-nav .logo img {
         width: 120px;
     }
