@@ -164,7 +164,6 @@ header .top-nav .search {
 }
 
 header .top-nav .search input {
-    /* padding: 18px 175px 18px 20px; */
     padding: 8px 83px 8px 8px !important;
     outline: none;
     border: none;
@@ -1273,6 +1272,10 @@ header .links ul .btn_close_menue {
 @media (max-width:700px) {}
 
 @media (max-width:500px) {
+    header .top-nav .logo img {
+        width: 120px;
+    }
+
     body {
         margin-top: 205px !important;
 
@@ -1350,6 +1353,14 @@ header .links ul .btn_close_menue {
 
     .slide_product .product_swip {
         width: 100%;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        width: 30% !important;
+        margin: 0px 35%;
     }
 
     .newsletter .text h6 {
