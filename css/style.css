@@ -841,6 +841,12 @@ header .links .login_signup a {
         overflow: visible;
     }
 }
+@media (max-width:500px) {
+    .product .img_product img {
+        width: 80%;
+    }
+}
+
 
 /* sliders  */
 .slide .contener {
